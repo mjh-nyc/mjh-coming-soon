@@ -105,6 +105,9 @@ body {
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  line-height: normal;
+}
 .container {
     max-width: 720px;
     margin: 0 auto;
@@ -160,7 +163,15 @@ body {
 
 
 
-
+@media only screen and (max-width: 580px) {
+    .logo {
+        width: 100% !important;
+        height: auto;
+    }
+    h1 {
+      font-size: 36px;
+    }
+}
 
 
 
